@@ -29,12 +29,14 @@ Dataset 2 was augmented from 299 source images using crop (0–20%), rotation (�
 - Taping: mIoU 0.7724, Dice 0.8489
 - Cracks: mIoU 0.5342, Dice 0.6789
 - Generalises across paraphrased prompts without retraining
+- Model at `models/best.pt`
 
 **Qwen3-VL-4B (qLoRA, 1 epoch)**
 - Segmentation as a vision-language task: outputs polygon coordinates in JSON
 - 4-bit quantised, 39.3 M trainable params (0.88% of 4.48 B)
 - Training loss: 1.51 → 0.69 in 109 steps (~28 min on L4)
 - Evaluation metrics pending
+- [`skaturanus/drywall-segment-vl`](https://huggingface.co/skaturanus/drywall-segment-vl)
 
 ---
 
