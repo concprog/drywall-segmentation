@@ -131,8 +131,12 @@ Unsloth's `FastVisionModel` loads the base model in 4-bit (BnB) with LoRA adapte
 Training loss dropped from 1.51 (step 1) to ~0.69 (step 109).
 
 ### Metrics
-(Evaluations are underway and will be updated soon)
 
+| Prompt | mIoU | Dice |
+|--------|------|------|
+| segment drywall taping area | 0.2286 | 0.3250 |
+| segment wall crack | Pending | Pending |
+| **Mean** | **Pending** | **Pending** |
 
 ### Output
 
